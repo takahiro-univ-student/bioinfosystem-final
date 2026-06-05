@@ -5,8 +5,8 @@ import time
 import json
 from machine import ADC, Pin, PWM
 
-SSID = "SSID-7MENRF"
-PASSWORD = "bd3fab3e"
+SSID = "YOUR_SSID"
+PASSWORD = "YOUR_PW"
 
 pulse_sensor = ADC(27)
 board_led = Pin("LED", Pin.OUT)
